@@ -349,7 +349,7 @@ $documentCount = Count-CosmosDbDocuments -SubscriptionId $subscriptionId -Resour
 
 Write-Information "Found $documentCount in Cosmos DB container $($cosmosDbContainer)"
 
-Install-Module -Name Az.CosmosDB
+#Install-Module -Name Az.CosmosDB
 
 if ($documentCount -ne 100000) 
 {
